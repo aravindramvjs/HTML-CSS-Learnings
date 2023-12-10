@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>HTML and CSS for Complete Beginners: Example 2-11-2</title>
+
+		<!-- This CSS and font is purely for presentational purposes. -->
+		<link rel="stylesheet" href="css/presentation.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet" />
+	</head>
+
+	<body class="flip">
+		<section class="learn">
+			<!-- Practice area start -->
+
+			<h1>Your Order</h1>
+			<form action="" method="get" id="order-form">
+				<div>
+					<label for="order-name">Name </label>
+					<input type="text" name="order-name" id="order-name" placeholder="Enter Your Full Name"autofocus>
+				</div>
+			
+				<div>
+					<label for="order-email">Email Address </label>
+					<input type="text" name="order-email" id="order-email" disabled value="blueble@gmail.com">
+				</div>
+			
+				<div>
+					<label for="order-address">Address </label>
+					<input type="text" name="order-address-1" id="order-address-1" placeholder="Door Number">
+					<input type="text" name="order-address-2" id="order-address-2" placeholder="Street Name">
+				</div>
+			
+					<div>
+						<label for="order-city"> City </label>
+						<select name="order-city" id="order-city">
+							<option value="Chennai"> Chennai </option>
+							<option value="Coimbatore"> Coimbatore </option>
+							<option value="Chengalpattu"> Chengalpattu </option>
+							<option value="Chidabaram"> Chidabaram </option>
+							<option value="Thanjavore"> Thanjavore </option>
+							<option value="Madurai"> Madurai</option>
+						</select>
+			
+					</div>
+			
+			
+					<div>
+						<label for="order-state"> State </label>
+						<select name="order-state" id="order-city">
+							<option value="TamilNadu"> TamilNadu</option>
+							<option value="Karnadaga"> Karnadaga </option>
+							<option value="Andra Pradash"> Andra Pradash </option>
+			
+						</select>
+			
+					</div>
+			
+					<div>
+						<label for="order-zip">Pin Code </label>
+						<input type="number" name="order-zip" id="order-zip" placeholder="603210">
+					</div>
+				</div>
+
+				<div>
+					<label for="order-color"> What Color Sample Should We Sent To You? </label>
+					
+					<label for="sample-white"><input type="checkbox" name="color-sample" id="sample-white" value="white"> White</label>
+					<label for="sample-blue"><input type="checkbox" name="color-sample" id="sample-blue" value="blue"> Blue</label>
+					<label for="sample-orange"><input type="checkbox" name="color-sample" id="sample-orange" value="orange"> Orange</label>
+					<label for="sample-green"><input type="checkbox" name="color-sample" id="sample-green" value="green"> Green</label>
+					<label for="sample-gold"><input type="checkbox" name="color-sample" id="sample-gold" value="gold"> Gold</label>
+
+				</div>
+
+				<div>
+					<label> How Large Is Your Team? </label>
+
+					<label for="team-small"><input type="radio" name="team-size" id="team-small" value="1 to 5"> 1 to 5 People</label>
+					<label for="team-medium"><input type="radio" name="team-size" id="team-medium" value="6 to 10"> 6 to 10 People</label>
+					<label for="team-large"><input type="radio" name="team-size" id="team-large" value="10+"> 10+ People</label>
+				</div>
+
+				<div>
+					<label for="offer-comments">Comments</label>
+					<textarea name="offer-comments" id="offer-comments" cols="30" rows="10"></textarea>
+				</div>
+
+				<div>
+					<label for="'offer-sign-up"><input type="Checkbox" name="offer-sign-up" id="offer-sign-up" > Sign Up For Special Offers</label>
+					<!--<button>Place Order</button>-->
+					<!-- <input type="submit" value="Place Order"> -->
+					<!-- <input type="button" value="Place Order"> -->
+				</div>
+
+				
+				</form>
+
+				<button form="order-form">Place Order</button>
+			
+
+
+
+			<!-- Practice area end -->
+		</section>
+
+		<section class="preview" data-content="lesson 2-11: Using Forms and Buttons">
+			<img width="903px" src="images/reference/order-form.png" alt="Reference image" />
+		</section>
+	</body>
+</html>
